@@ -1,0 +1,24 @@
+header {
+    font-family: "Montserrat";
+    font-weight: var(--pesoFonteTitulos);
+    background-color: var(--corTerciariaBackground);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 38px 48px;
+}
+
+.logo {
+    display: inline-block;
+    width: 68px;
+    height: 64px;
+}
+
+nav {
+    display: none;
+}
+
+.navigation-menu {
+    margin-top: 24px;
+}
