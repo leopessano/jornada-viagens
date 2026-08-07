@@ -1,5 +1,5 @@
 header {
-    font-family: "Montserrat";
+    position: relative;
     font-weight: var(--pesoFonteTitulos);
     background-color: var(--corTerciariaBackground);
     display: flex;
@@ -21,8 +21,27 @@ header {
 
 input[type="checkbox"]:checked ~ nav {
     display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--corTerciariaBackground);
 }
 
 nav {
     display: none;
+}
+
+.list-links {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.list-links li {
+    margin-bottom: 16px;
+}
+
+ .list-links li a {
+    color: var(--corSecundariaTextos);
+    text-decoration: none;
 }
