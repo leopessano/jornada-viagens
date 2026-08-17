@@ -1,0 +1,33 @@
+.categories {
+    margin-top: 88px;
+}
+
+.categ-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.categ-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 312px;
+    height: 220px;
+    color: var(--corPrimariaTextos);
+    background-color: var(--corSecundariaBackground);
+    border-radius: 16px;
+    padding: 16px 8px;
+    text-align: center;
+    text-decoration: none;
+    gap: 24px;
+}
+
+.categ-card h3 {
+    font-size: 28px;
+    font-weight: var(--pesoFonteTitulos);
+}
+
