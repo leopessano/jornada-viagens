@@ -31,3 +31,21 @@
     font-weight: var(--pesoFonteTitulos);
 }
 
+@media screen and (min-width: 768px) {
+    .categ-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .categ-cards {
+        flex-wrap: nowrap;
+    }
+
+    .categ-card {
+        width: 281.25px;
+        height: 220px;
+    }
+}
