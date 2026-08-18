@@ -32,10 +32,13 @@ body {
   color: var(--corPrimariaTextos);
 }
 
+.section-title {
+  margin: 88px 0 52px;
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--pesoFonteTitulos);
-  margin: 0;
   color: var(--corPrimariaTextos);
   text-align: center;
 }
@@ -46,6 +49,17 @@ body {
   background-color: var(--corSecundaria);
   border: none;
   margin: 16px auto 32px;
+}
+
+.content-title {
+  font-weight: var(--pesoFonteTitulos);
+  font-size: 28px;
+}
+
+.content-text {
+  font-weight: var(--pesoFonteTextos);
+  font-size: 20px;
+  line-height: 32px;
 }
 
 .button {
