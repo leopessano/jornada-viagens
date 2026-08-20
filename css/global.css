@@ -54,6 +54,7 @@ body {
 .content-title {
   font-weight: var(--pesoFonteTitulos);
   font-size: 28px;
+  margin: 0 0 24px;
 }
 
 .content-text {
