@@ -1,0 +1,72 @@
+.payments {
+    display: block;
+    width: 312px;
+    margin: auto;
+}
+
+.image-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    height: 460px;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.bag {
+    background-image: url(../img/1Homepage-mobile/bag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.passport {
+    background-image: url(../img/1Homepage-mobile/passport.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.people {
+    background-image: url(../img/1Homepage-mobile/people.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.span2 {
+    grid-column: span 2;
+}
+
+
+@media screen and (min-width: 768px) {
+    .payments {
+        width: 648px;
+    }
+
+    .bag {
+        background-image: url(../img/1Homepage-tablet/bag.png);
+    }
+
+    .passport {
+        background-image: url(../img/1Homepage-tablet/passport.png);
+    }
+
+    .people {
+        background-image: url(../img/1Homepage-tablet/people.png);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .payments {
+        width: 1024px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .payments {
+        width: 1440px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .payments {
+        width: 1920px;
+    }
+}
