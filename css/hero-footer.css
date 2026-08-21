@@ -1,0 +1,26 @@
+.hero-footer-img {
+    height: 360px;
+    width: 100%;
+    background-image: url(../img/1Homepage-mobile/hero-footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 88px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-footer-img {
+        height: 620px;
+        background-image: url(../img/1Homepage-tablet/hero-footer.png);
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .hero-footer-img {
+        height: 620px;
+        background-image: url(../img/hero-footer.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }  
+}
